@@ -1,5 +1,10 @@
 import time
 
+def getUrl(url,fn):
+	cmd = "curl --silent "+url+" > "+fn
+	os.system(cmd)
+	return fn
+
 last_message_sent = None
 while True:
 	url = "https://www.archives.gov/electoral-college/2020"
