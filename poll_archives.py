@@ -17,7 +17,7 @@ while True:
 			for char in line:
 				if char == '-':
 					dashcount = dashcount + 1
-		print("dashcount: "+str(dashcount))
+		#print("dashcount: "+str(dashcount))
 		if dashcount != 895:
 			print("Electoral College page at the national archives has changed.")
 			#last_message_sent = piBot.SendSMSToAdmin("Archive page changed.",last_message_sent)
